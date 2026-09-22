@@ -1,7 +1,7 @@
 {
   "name": "turbovec-node",
   "version": "0.1.0",
-  "description": "Node.js napi-rs bindings for turbovec — SIMD-accelerated quantized vector search",
+  "description": "Node.js napi-rs bindings for turbovec \u2014 SIMD-accelerated quantized vector search",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -14,8 +14,8 @@
     ]
   },
   "scripts": {
-    "build": "napi build --platform --release",
-    "build:debug": "napi build --platform"
+    "build": "node init && napi build --platform --release",
+    "build:debug": "node init && napi build --platform"
   },
   "license": "MIT",
   "devDependencies": {

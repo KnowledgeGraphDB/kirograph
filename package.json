@@ -13,8 +13,8 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsx scripts/build.ts",
-    "dev": "tsx scripts/build.ts --watch",
+    "build": "node init && tsx scripts/build.ts",
+    "dev": "node init && tsx scripts/build.ts --watch",
     "typecheck": "tsc --noEmit",
     "test": "vitest --run",
     "test:agent": "bash test/agent/test.sh",

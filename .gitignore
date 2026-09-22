@@ -2,7 +2,6 @@
 dist/
 
 # ide
-.vscode
 
 # kiro
 .kirograph/
@@ -48,3 +47,4 @@ package-lock.json
 
 # benchmark
 benchmarks
+config.bat
